@@ -584,7 +584,7 @@
     margin-bottom: 1.5rem;
   }
   .hero-photo {
-    width: 250px; 
+    width: 225px; 
     height: auto; 
     border: none;
     border-radius: 0;
@@ -617,7 +617,20 @@
     border-radius: 4px;
     filter: brightness(0) invert(1);
   }
-
+.edu-logo {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  border-radius: 4px;
+  filter: brightness(0) invert(1);
+  opacity: 0.9;
+}
+.edu-school-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
   /* SCROLL REVEAL */
   .reveal {
     opacity: 0;
@@ -830,7 +843,10 @@
   </div>
 
   <div class="edu-block reveal">
-    <div class="edu-school">Foreign Trade University</div>
+    <div class="edu-school-row">
+      <img src="logo%20ftu.png" alt="FTU Logo" class="edu-logo">
+      <div class="edu-school">Foreign Trade University</div>
+    </div>
     <div class="edu-major">Major in International Economics · 2023 – 2027</div>
     <div class="edu-stats">
       <div>
